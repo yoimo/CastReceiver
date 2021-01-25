@@ -1,3 +1,7 @@
+# Joymo Simple CastReceiver App
+
+This application is a modified version of the original cast receiver reference implementation. One of the main differences is that it compiles to a single bundled html.
+
 # CastReceiver
 
 This sample shows how to develop a fully Cast Design Checklist compliant receiver with additional features.

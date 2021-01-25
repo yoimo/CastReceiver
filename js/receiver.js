@@ -21,6 +21,8 @@ limitations under the License.
 
 'use strict';
 
+import "../css/receiver.css";
+
 import { CastQueue } from './queuing.js';
 import { AdsTracker, SenderTracker, ContentTracker } from './cast_analytics.js';
 
@@ -47,7 +49,7 @@ const castDebugLogger = cast.debug.CastDebugLogger.getInstance();
  * Uncomment below line to enable debug logger and show a 'DEBUG MODE' tag at
  * top left corner.
  */
-// castDebugLogger.setEnabled(true);
+castDebugLogger.setEnabled(true);
 
 /**
  * Uncomment below line to show debug overlay.
