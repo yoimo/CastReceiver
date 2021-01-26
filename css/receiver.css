@@ -15,34 +15,16 @@ limitations under the License.
 */
 
 body {
-  --playback-logo-image: url('../res/logo_googleg_color_2x_web_48dp.png');
+  --playback-logo-image: url('../res/logo-joymo.svg');
 }
 
 cast-media-player {
-  --theme-hue: 180;
-  --progress-color: rgb(0, 255, 255);
-  --splash-image: url('../res/background-1.jpg');
+  --theme-hue: 72;
+  --progress-color: #d6f551;
+  --splash-image: url('../res/joymo-background.jpg');
   --splash-size: cover;
-  --slideshow-interval: 8;
+  /*--slideshow-interval: 8;
   --slideshow-animation: 3;
   --slideshow-image-1: url('../res/background-2.jpg');
-  --slideshow-image-2: url('../res/hub-1.jpg');
-}
-
-/* ------------------------------------------------- */
-/* Sample Overlay Text                               */
-/* ------------------------------------------------- */
-cast-media-player:after {
-  content: "SAMPLE";
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  bottom: 0;
-  text-align: center;
-  font-size: 200px;
-  font-weight: bold;
-  margin-top: -150px;
-  opacity: 0.5;
-  color: red;
+  --slideshow-image-2: url('../res/hub-1.jpg');*/
 }
